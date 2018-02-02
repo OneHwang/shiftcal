@@ -91,8 +91,9 @@ $(document).ready( function() {
         curPage = "viewEvents";
 
         container.empty()
-             .append($('#scrollToTop').html())
-             .append($('#legend-template').html());
+            .append($('#addEventButton').html())
+            .append($('#scrollToTop').html())
+            .append($('#legend-template').html());
 
         getEventHTML({
             startdate: startDate,
